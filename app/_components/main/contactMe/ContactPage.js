@@ -13,7 +13,7 @@ export default function ContactPage() {
 		e.preventDefault();
 		setStatus('Sending...');
 		try {
-			const response = await fetch('../../../api/contact', {
+			const response = await fetch('/api/contact', {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify(formData),
@@ -29,6 +29,8 @@ export default function ContactPage() {
 			setStatus('Failed to send message. Try again later.');
 		}
 	};
+
+	console.log('status', status);
 	return (
 		<div className='flex flex-col w-2/3 items-center bg-gray-100 py-20 min-h-screen rounded-lg text-slate-800'>
 			<div className='bg-white shadow-lg rounded-xl p-6 w-full max-w-lg'>
@@ -38,7 +40,7 @@ export default function ContactPage() {
 						type='text'
 						placeholder='Your Name'
 						className='p-3 border rounded-md'
-						value={formData.name}
+						defaultValue={formData.name}
 						onChange={e => setFormData({ ...formData, name: e.target.value })}
 						required
 					/>
@@ -46,7 +48,7 @@ export default function ContactPage() {
 						type='email'
 						placeholder='Your Email'
 						className='p-3 border rounded-md'
-						value={formData.email}
+						defaultValue={formData.email}
 						onChange={e => setFormData({ ...formData, email: e.target.value })}
 						required
 					/>

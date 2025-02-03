@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Portfolio
 
-## Getting Started
+## 🚀 Live Demo
 
-First, run the development server:
+[View Portfolio](https://my-portfolio-chi-rust-53.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 About
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This is my personal portfolio showcasing my projects, skills, and experience as a web developer. The website features:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Home Page – Introduction and overview.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Projects Page – A collection of my work with live previews.
 
-## Learn More
+- About Page – Information about me and my journey.
 
-To learn more about Next.js, take a look at the following resources:
+- Contact Page – A form for getting in touch.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Next.js – React framework for optimized performance.
 
-## Deploy on Vercel
+- React – Component-based UI development.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Tailwind CSS – Utility-first styling for fast design.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Framer Motion – Smooth animations and transitions.
+
+- Nodemailer – Contact form email handling.
+
+## 📂 Project Structure
+
+my-portfolio/
+├── public/ # Static assets (images, favicon, etc.)
+├── app/ # App Router directory │
+├── components/ # Reusable UI components │
+├── pages/ # Next.js pages (Home, Projects, About, Contact) │
+├── styles/ # Global styles │
+├── utils/ # Helper functions │
+├── api/ # API routes
+├── .gitignore
+├── package.json
+├── README.md
+
+## 📦 Installation & Setup
+
+- Clone the repository:
+
+- git clone https://github.com/your-username/my-portfolio.git
+
+- Navigate to the project directory:
+
+- cd my-portfolio
+
+- Install dependencies:
+
+- npm install
+
+- Run the development server:
+
+- npm run dev
+
+- Open http://localhost:3000 in your browser.
+
+## 🚀 Deployment
+
+### This project is deployed using Vercel.
+
+To deploy manually:
+
+- Push your project to a GitHub repository.
+
+- Go to Vercel and import your repository.
+
+- Click Deploy, and Vercel will handle the rest!
+
+## 🤝 Contributing
+
+If you have suggestions or improvements, feel free to fork the repository and create a pull request!
+
+## 📬 Contact
+
+📧 Email: [takkokikalishvili@gmail.com](mailto:takkokikalishvili@gmail.com)  
+🔗 LinkedIn: [linkedin.com/in/tamara-kikalishvili-88825628a](https://linkedin.com/in/tamara-kikalishvili-88825628a)  
+🐙 GitHub: [github.com/Tamar86](https://github.com/Tamar86)
