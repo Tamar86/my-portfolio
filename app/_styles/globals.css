@@ -64,3 +64,9 @@ h4 {
 .projects-list li:hover {
 	transform: translateY(-5px);
 }
+
+@media (max-width: 1024px) {
+	.btn-container div {
+		font-size: 14px;
+	}
+}

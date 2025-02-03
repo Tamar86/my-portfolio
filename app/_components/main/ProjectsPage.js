@@ -4,7 +4,7 @@ import { myProjects } from '@/app/utils/myProjects';
 
 function ProjectsPage() {
 	return (
-		<ul className='projects-list grid grid-cols-3 gap-10'>
+		<ul className='projects-list  grid lg:grid-cols-3 gap-10'>
 			{myProjects.map(project => (
 				<li
 					key={project.id}

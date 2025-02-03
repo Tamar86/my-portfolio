@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
 				<header className='w-full pb-24'>
 					<Navigation />
 				</header>
-				<main className='pb-24 px-24 flex items-center justify-center'>
+				<main className='pb-4 px-4 sm:pb-24 sm:px-24 flex items-center justify-center'>
 					{children}
 				</main>
 			</body>

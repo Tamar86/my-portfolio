@@ -18,7 +18,7 @@ function HomePage() {
 
 	return (
 		<div className='flex flex-col gap-24  items-center justify-center'>
-			<div className='grid grid-cols-2 items-center justify-between gap-24'>
+			<div className='grid grid-rows-2 lg:grid-cols-2 items-center justify-between gap-24'>
 				<IntroductionSection />
 				<div>{loading ? <Spinner /> : <SkillsMotion skills={skills} />}</div>
 			</div>

@@ -1,4 +1,5 @@
 'use client';
+
 import { useState } from 'react';
 import ContactLinks from './ContactLinks';
 
@@ -32,8 +33,8 @@ export default function ContactPage() {
 
 	console.log('status', status);
 	return (
-		<div className='flex flex-col w-2/3 items-center bg-gray-100 py-20 min-h-screen rounded-lg text-slate-800'>
-			<div className='bg-white shadow-lg rounded-xl p-6 w-full max-w-lg'>
+		<div className='flex flex-col items-center bg-gray-100 py-20 min-h-screen w-full  sm:w-[50rem] rounded-lg text-slate-800'>
+			<div className='bg-white shadow-lg rounded-xl p-6 sm:w-[30rem] w-full'>
 				<h2 className='text-2xl font-bold text-center mb-4'>Get in Touch</h2>
 				<form onSubmit={handleSubmit} className='flex flex-col gap-4'>
 					<input

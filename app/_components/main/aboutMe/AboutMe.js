@@ -4,13 +4,13 @@ import Profile from './Profile';
 
 function AboutMe() {
 	return (
-		<div className='flex flex-col gap-5'>
+		<div className='flex  flex-col gap-5'>
 			<div>
 				<h1 className='text-4xl'>Tamara Kikalishvili</h1>
 				<h3 className='text-2xl'>Junior Web Developer</h3>
 			</div>
 
-			<div className='grid grid-cols-2 gap-16'>
+			<div className='grid grid-flow-row lg:grid-cols-2 gap-16'>
 				<Profile />
 
 				<div className='flex flex-col gap-6'>
