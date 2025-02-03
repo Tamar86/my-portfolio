@@ -56,7 +56,7 @@ export default function ContactPage() {
 					<textarea
 						placeholder='Your Message'
 						className='p-3 border rounded-md h-32'
-						value={formData.message}
+						defaultValue={formData.message}
 						onChange={e =>
 							setFormData({ ...formData, message: e.target.value })
 						}
