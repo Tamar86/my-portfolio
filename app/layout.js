@@ -1,6 +1,7 @@
 import '@/app/_styles/globals.css';
 import { Poppins } from 'next/font/google';
 import Navigation from './_components/header/Navigation';
+import HamburgerMenu from './_components/header/HamburgerMenu';
 
 export const metadata = {
 	title: `Tamara's Portfolio`,
@@ -17,10 +18,15 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang='en' className={poppins.variable}>
 			<body>
-				<header className='w-full pb-24'>
-					<Navigation />
+				<header className='pb-24'>
+					<div className='hidden md:block relative'>
+						<Navigation />
+					</div>
+					<div className='md:hidden flex items-center justify-end p-10 w-full fixed'>
+						<HamburgerMenu />
+					</div>
 				</header>
-				<main className='pb-4 px-4 sm:pb-24 sm:px-24 flex items-center justify-center'>
+				<main className='pb-4 px-4 sm:pb-24  flex items-center justify-center min-h-screen'>
 					{children}
 				</main>
 			</body>

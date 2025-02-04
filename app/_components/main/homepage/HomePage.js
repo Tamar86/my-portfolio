@@ -17,10 +17,11 @@ function HomePage() {
 	}, []);
 
 	return (
-		<div className='flex flex-col gap-24  items-center justify-center'>
-			<div className='grid grid-rows-2 lg:flex items-center justify-between gap-24 h-fit'>
+		<div className='flex flex-col gap-24  items-center justify-center '>
+			<div className='grid grid-rows-[1fr 2fr] lg:grid lg:grid-cols-[1fr_1fr] items-center justify-between gap-5 '>
 				<IntroductionSection />
-				<div>{loading ? <Spinner /> : <SkillsMotion skills={skills} />}</div>
+
+				{loading ? <Spinner /> : <SkillsMotion skills={skills} />}
 			</div>
 
 			<SocialLinks />
