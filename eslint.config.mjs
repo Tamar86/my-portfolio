@@ -11,6 +11,8 @@ export default [
 	{
 		rules: {
 			'react/react-in-jsx-scope': 'off', // ✅ Fixes the "React must be in scope" issue
+			'react/prop-types': 'off',
+			'react/no-unescaped-entities': 'off',
 		},
 	},
 ];
