@@ -3,11 +3,17 @@ import { Poppins } from 'next/font/google';
 import Header from './_components/header/Header';
 
 export const metadata = {
-	title: `Tamara's Portfolio`,
+	title: {
+		template: `%s / Tamara Kikalishvili | Web Developer Portfolio `,
+		default: `Tamara Kikalishvili | Web Developer Portfolio`,
+	},
+	description:
+		'Tamara Kikalishvili is a Frontend Web Developer skilled in Next.js, React, and Tailwind CSS. View modern, responsive, and user-friendly web projects.',
 };
 
 const poppins = Poppins({
 	subsets: ['latin'],
+	display: 'swap',
 	weight: ['400', '600', '700'],
 	variable: '--font-poppins',
 });

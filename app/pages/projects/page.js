@@ -1,7 +1,7 @@
 import ProjectsPage from '@/app/_components/main/ProjectsPage';
 
 export const metadata = {
-	title: `Tamara's Projects`,
+	title: `Projects`,
 };
 
 function Page() {
