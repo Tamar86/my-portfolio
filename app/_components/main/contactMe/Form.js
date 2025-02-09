@@ -9,6 +9,7 @@ function Form() {
 		message: '',
 	});
 	const [status, setStatus] = useState('');
+
 	const handleSubmit = async e => {
 		e.preventDefault();
 		setStatus('Sending...');
@@ -26,7 +27,7 @@ function Form() {
 				setStatus(result.error || 'Something went wrong!');
 			}
 		} catch (error) {
-			setStatus('Failed to send message. Try again later.');
+			setStatus('Failed to send message. Try again later.', error);
 		}
 	};
 
