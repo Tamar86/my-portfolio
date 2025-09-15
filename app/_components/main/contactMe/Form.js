@@ -31,7 +31,6 @@ function Form() {
 		}
 	};
 
-	console.log('status', status);
 	return (
 		<form onSubmit={handleSubmit} className='flex flex-col gap-4'>
 			<input

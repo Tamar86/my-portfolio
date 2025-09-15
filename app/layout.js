@@ -8,7 +8,7 @@ export const metadata = {
 		default: `Tamara Kikalishvili | Web Developer Portfolio`,
 	},
 	description:
-		'Tamara Kikalishvili is a Frontend Web Developer skilled in Next.js, React, and Tailwind CSS. View modern, responsive, and user-friendly web projects.',
+		'Tamar Collins is a Frontend Web Developer skilled in Next.js, React, and Tailwind CSS. View modern, responsive, and user-friendly web projects.',
 };
 
 const poppins = Poppins({

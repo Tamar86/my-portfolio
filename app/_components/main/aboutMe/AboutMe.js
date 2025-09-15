@@ -6,7 +6,7 @@ function AboutMe() {
 	return (
 		<div className='flex  flex-col gap-5'>
 			<div>
-				<h1 className='text-4xl'>Tamara Kikalishvili</h1>
+				<h1 className='text-4xl'>Tamar Collins</h1>
 				<h3 className='text-2xl'>Junior Web Developer</h3>
 			</div>
 

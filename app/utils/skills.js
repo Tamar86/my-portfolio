@@ -13,12 +13,14 @@ import {
 	SiMongodb,
 	SiExpress,
 	SiMongoose,
+	SiTypescript,
 } from 'react-icons/si';
 
 export const skills = [
 	{ name: 'HTML', icon: <FaHtml5 className='text-orange-500' /> },
 	{ name: 'CSS', icon: <FaCss3Alt className='text-blue-500' /> },
 	{ name: 'JavaScript', icon: <SiJavascript className='text-yellow-500' /> },
+	{ name: 'TypeScript', icon: <SiTypescript className='text-blue-600' /> },
 	{ name: 'React', icon: <FaReact className='text-blue-400' /> },
 	{ name: 'Next.js', icon: <SiNextdotjs className='text-black' /> },
 	{ name: 'Tailwind CSS', icon: <SiTailwindcss className='text-teal-400' /> },

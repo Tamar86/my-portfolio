@@ -5,9 +5,7 @@ function SocialLinks() {
 				<a href='https://github.com/Tamar86'>github</a>
 			</div>
 			<div className='bg-blue-500'>
-				<a href='https://linkedin.com/in/tamara-kikalishvili-88825628a'>
-					Linkedin
-				</a>
+				<a href='linkedin.com/in/tamar-collins-88825628a'>Linkedin</a>
 			</div>
 			<div className='bg-green-500'>
 				<a download='tamaras-resume.pdf' href='/tamaras-resume.pdf'>

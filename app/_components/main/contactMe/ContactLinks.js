@@ -2,9 +2,9 @@ function ContactLinks() {
 	return (
 		<div className='mt-6 text-center'>
 			<p>
-				Email
-				<a href='mailto:takkokikalishvili@gmail.com' className='text-blue-600'>
-					your@email.com
+				Email:{' '}
+				<a href='mailto:tamar.Collins555@gmail.com' className='text-blue-600'>
+					tamar.Collins555@gmail.com
 				</a>
 			</p>
 			<p>
@@ -14,7 +14,7 @@ function ContactLinks() {
 				</a>
 				|
 				<a
-					href='https://linkedin.com/in/tamara-kikalishvili-88825628a'
+					href='linkedin.com/in/tamar-collins-88825628a'
 					className='text-blue-600 mx-2'
 				>
 					LinkedIn
