@@ -37,7 +37,7 @@ function Form() {
 				type='text'
 				placeholder='Your Name'
 				className='p-3 border rounded-md'
-				defaultValue={formData.name}
+				value={formData.name || ''}
 				onChange={e => setFormData({ ...formData, name: e.target.value })}
 				required
 			/>
@@ -45,14 +45,14 @@ function Form() {
 				type='email'
 				placeholder='Your Email'
 				className='p-3 border rounded-md'
-				defaultValue={formData.email}
+				value={formData.email || ''}
 				onChange={e => setFormData({ ...formData, email: e.target.value })}
 				required
 			/>
 			<textarea
 				placeholder='Your Message'
 				className='p-3 border rounded-md h-32'
-				defaultValue={formData.message}
+				value={formData.message || ''}
 				onChange={e => setFormData({ ...formData, message: e.target.value })}
 				required
 			/>

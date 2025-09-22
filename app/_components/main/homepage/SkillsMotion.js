@@ -14,7 +14,7 @@ function SkillsMotion({ skills }) {
 						className='flex flex-col items-center bg-slate-900 shadow-md p-4 rounded-xl font-semibold text-white hover:scale-105 transition-transform'
 					>
 						{skill.icon}
-						<span className='mt-2 text-xs sm:text-xl lg:text-xs'>
+						<span className='mt-2 text-xs sm:text-xl lg:text-xs animate-pulse'>
 							{skill.name}
 						</span>
 					</div>
